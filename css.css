@@ -1,0 +1,366 @@
+.mg{
+	margin:0px;
+	color:white;
+	padding-top: 150px; 
+	font-family: 'Segoe UI', serif ;
+	font-weight: lighter; 
+	text-align: center;"
+}
+header{
+	font-family: 'Segoe UI', san-serif ;
+	background: white;
+    
+}
+span{
+	padding-left: 20%;
+	padding-top: 30px;
+}
+.head{
+	margin-top: 10px;
+	box-shadow:  inset 0 6px 4px -4px rgba(0, 0, 0, .2),/*тень снизу*/
+				       0 6px 4px -4px rgba(0, 0, 0, .2);/*тень сверху*/
+
+	width:100%;
+
+}
+.zvonok{/*кнопка*/
+	margin-left: 30%;
+	font-family: 'Segoe UI', san-serif ;
+	font-weight: bold;
+	background: #ffa019;
+	border:0px;
+	border-radius: 10px;
+	width: 183px;
+	height: 37px;
+	color:white;
+	margin-top: 10px;
+
+}
+body{
+	margin: 0;
+}
+h1{
+	
+	font-family: 'Segoe UI', serif ;
+	font-weight: bold;
+	font-size: 26px;
+	margin-left: 20%;
+}
+.Giro{/*выравнивает текст и меню*/
+	display: flex;
+}
+nav{/*меню*/
+	display: flex;
+	font-family: 'Segoe UI', serif ;
+	font-weight: 100;
+	font-size: 18px;
+	padding-top: 15px;
+	padding-left:7.5%;
+}
+.topnav a{/*декор меню*/
+	color:#000;
+	text-align: center;
+	padding:15.5px;
+	 text-decoration: none;
+}
+.topnav a:hover{
+	border-bottom: 2px solid black;/*Подчеркивает при наведении на элемент меню*/
+}
+
+
+.lis{
+	text-align: center;
+	width: 100%;
+	height: 800px;
+	
+}
+h2{
+	margin-top: 20px;
+	font-family:  'Segoe UI', serif ;
+	font-weight: bold;
+	font-size: 56px;
+	margin-left: 20%;
+}
+.li{/*декор для абзацев*/
+	font-family: 'Segoe UI', serif ;
+	font-weight: lighter;
+	font-size: 56px;
+	margin-left: 20%;
+	padding-top:30px; 
+}
+br{
+	 text-align: center;
+}
+.bgi{
+	 background-image: url(img/Снимок.png) ; 
+	 width:100%; 
+	 height: 500px;
+	 background-repeat: no-repeat;
+  		background-position: center;
+  		background-size: cover;
+}
+article.advantages {
+    width:80%;
+    padding-left: 20%;
+    text-align: left;
+}
+
+section.advantages {
+    margin-top: 70px;
+    width: 250px;
+    height: 100px;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    margin-left:40px; 
+}
+
+p.advantages {/*декор для абзацев*/
+    font-size: 40px;
+    text-align: left;
+}
+
+p.ad2 {/*декор для абзацев*/
+    font-family: 'Segoe UI', serif ;
+	font-weight: lighter;
+}
+p.ad3 {/*декор для абзацев*/
+    font-family: 'Segoe UI', serif ;
+	font-weight: lighter;
+    margin-left: 20%;
+}
+p.ad4{/*декор для абзацев*/
+	font-family: 'Segoe UI', serif ;
+	font-weight: lighter;
+    margin-left: 20%;
+    margin-top: 30px;
+}
+.orangbox{ /*Блок для рассылки*/
+	margin-top: 70px;
+	background: #ffa019;
+	width:100%;
+	height: 94px;
+}
+.ad5{/*декор для абзацев*/
+	font-family: 'Segoe UI', serif ;
+	font-weight: bold;
+	margin-left: 20%;
+	color: white;
+	padding-top:10px; 
+	display: inline-flex;
+}
+
+input { /*Поля для ввода*/
+  width: 100%;
+  height: 40px;
+  background: #ffa019;
+  margin-left: 5%;
+}
+.fl{
+	display: flex;
+}
+.rig{/*кнопка*/
+	margin-top: 25px;
+	margin-left: 20px;
+	text-align: center;
+	font-family: 'Segoe UI', serif ;
+	font-weight: bold;
+	width: 300px;
+	height: 48px;
+	color: black;
+	background: white;
+	border-color: white;
+}
+.ad6{/*декор для абзацев*/
+	font-family: 'Segoe UI', serif ;
+	font-weight: lighter;
+	margin-left: 207px;
+	color: black;
+	padding-top:10px; 
+	display: inline-flex;
+	
+}
+.ad7{/*декор для абзацев*/
+	font-family: 'Segoe UI', serif ;
+	font-weight: lighter;
+	margin-left: 20%;
+	color: black;
+	padding-top:10px; 
+	display: inline-flex;
+	
+}
+ul.hr {
+    margin: 0 px; /* Обнуляем значение отступов */
+    padding-left:  20%; /* Значение полей */
+	text-align: left;
+	
+   }
+   ul.hr li {
+
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+}
+.catalog /*Картинки каталога*/
+{
+	height: 410px;
+	width: 261px;
+	margin: 15px;
+	box-shadow: 0 0 30px rgba(0,0,0,0.10); 
+}
+.info{ /*Картинки с полезной информацией*/
+	height: 261px;
+	width: 261px;
+
+}
+.Graybox{ /*Бренды*/
+	background: #FCFCFC;
+	height: 194px;
+	padding-left:10%;
+	word-spacing: 50px;
+	padding-top: 115px;
+	font-size: 40px;
+	font-weight: bold;
+	color: gray;
+
+}
+.li2{/*декор для каталог*/
+	font-family: 'Segoe UI', serif ;
+	font-weight: lighter;
+	font-size: 30px;
+	margin-left: 20%;
+	padding-top:30px; 
+	padding-bottom: 30px;
+}
+.stroca{/*Уменьшает selection и распологает их столбиками в одной строке*/
+	margin: 0 1.5% 24px 0;
+	float: left;
+  	width: 20%;
+  	text-align: center;
+  	padding-left: 5%
+  }
+.ii{
+	background: #FCFCFC;
+	width:50px;
+	text-align: left;
+
+}
+footer { /*Подвал*/
+height: 300px;
+background: #fbfbfb;
+}
+.footer_text { /*Настройка текста*/
+padding: 75px 200px 30px 395px;
+}
+.foot_main_text { /*Настройка текста*/
+width: 315px;
+font-size: 14px;
+font-weight: 300;
+color: #8191AB;
+float: left;
+margin-right: 275px;
+}
+.footer_text h1 { /*Настройка текста*/
+font-size: 14px;
+font-weight: bold;
+color: #303842;
+margin: 0;
+}
+p.foot_txt1 {
+margin: 0;
+}
+p.foot_txt2 {
+margin-top: 15px;
+margin-bottom: 40px;
+}
+p.foot_txt3 {
+margin: 0;
+}
+.foot_spisok {
+float: left;
+margin-right: 35px;
+}
+.footer_text li {
+list-style-type: none;
+padding-left: 0;
+color: #8191AB;
+}
+.footer_text ul {
+padding-left: 0;
+margin-top: 10px;
+}
+.foot_spisok a {
+text-decoration: none;
+color: #8191AB;
+}
+.inn{/*текст на картинке сверху*/
+	text-align:  center;
+	color: white;
+	 font-family: 'Segoe UI', serif ;
+	font-weight: lighter;
+}
+.Naris{ /*кнопка на рисунке рисунка*/
+
+	text-align: center;
+	font-family: 'Segoe UI', san-serif ;
+	font-weight: bold;
+	background: white;
+	border:0px;
+	border-radius: 10px;
+	width: 140px;
+	height: 37px;
+	color:black;
+	margin-top: 10px;
+
+}
+.nashi_kons {
+background: #fff;
+height: 358px;
+padding: 125px 395px 0;
+padding-top: 0px;
+}
+.nashi_konsult {
+font-weight: 300;
+font-size: 34px;
+padding-bottom: 30px;
+margin: 0;
+}
+.nashi_konsultant {
+display: flex;
+flex-direction: row;
+}
+.nashi_tables {
+margin-right: 20px;
+background: #fbfbfb;
+width: 355px;
+}
+.kons_img {
+width: 163px;
+}
+.nashi_table td {
+vertical-align: top;
+font-size: 20px;
+font-weight: 300;
+}
+.kons_txt1 {
+padding: 30px 0 0 15px;
+}
+.kons_txt2 {
+margin: 0;
+font-size: 12px;
+font-style: italic;
+}
+.nashi_tables button {
+margin-top: 15px;
+background: #ffa019;
+font-size: 10px;
+color: #fff;
+width: 78px;
+height: 28px;
+border: none;
+border-radius: 10px;
+}
+
+.maps{
+	margin: 0 300px 0 300px;
+}
